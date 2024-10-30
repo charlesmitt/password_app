@@ -13,9 +13,9 @@ if(st.button("Vérifier") or saisie):
         time.sleep(3)
     if(saisie!=pw):
         st.error("Mot de passe incorrect")
-        st.image("denied.jpg", width=300)  
+        st.image("Pinguoin.jpg", width=300)  
     else:
         st.success("Mot de passe correct, bravo ")  
         st.snow()
         st.balloons()
-        st.image("image.png", width=300)  
+        st.image("Apple and cookie.jpg", width=300)  
