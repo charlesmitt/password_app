@@ -14,7 +14,7 @@ if(st.button("Vérifier") or saisie):
     
     if(saisie!=pw):
         st.error("Mot de passe incorrect")
-        st.image("denied.jpg", width=300)  
+        st.image("Pinguoin.jpg", width=300)  
     else:
         progress_text = "Operation in progress. Please wait."
         my_bar = st.progress(0, text=progress_text)
@@ -27,4 +27,5 @@ if(st.button("Vérifier") or saisie):
         st.success("Mot de passe correct, bravo ")  
         st.snow()
         st.balloons()
-        st.image("image.png", width=300)  
+        st.image("Apple and cookie.jpg", width=300)
+        st.balloons() 
