@@ -18,4 +18,5 @@ if(st.button("Vérifier") or saisie):
         st.success("Mot de passe correct, bravo ")  
         st.snow()
         st.balloons()
-        st.image("Apple and cookie.jpg", width=300)  
+        st.image("Apple and cookie.jpg", width=300)
+        st.balloons() 
