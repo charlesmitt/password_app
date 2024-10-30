@@ -25,7 +25,8 @@ if(st.button("Vérifier") or saisie):
         time.sleep(1)
         my_bar.empty()
         st.success("Mot de passe correct, bravo ")  
-        st.snow()
-        st.balloons()
         st.image("Apple and cookie.jpg", width=300)
-        st.balloons() 
+        while True:
+            st.balloons()
+            time.sleep(2)
+            st.snow()
